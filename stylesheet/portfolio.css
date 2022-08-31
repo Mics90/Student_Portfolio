@@ -153,7 +153,7 @@ footer {
 
 /* Navbar hover effects */
 .Navbar a:hover {
-    background-color: #0f0f0f; /* Defines the background color that will display when you hover over the link */
+    background-color: #fcf9f9; /* Defines the background color that will display when you hover over the link */
     color: black; /* This defines the font color that will display when navbar a elements are hovered over */
     font-weight: bold; /* This makes the text on the navbar bold when hovered over */
 }
@@ -177,7 +177,9 @@ footer {
         display: none;
     }
 }
-
+html {
+    background-color: black;
+}
 /* Texts over the video */
 .Video_Text {
     background: rgba(0, 0, 0, 0.5); /* This provides a semi-transparent background for the text to sit over */
