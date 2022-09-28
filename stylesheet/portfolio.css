@@ -416,6 +416,9 @@ button:hover, .form-container .btn:hover {
     p {
         font-size: 3.75vw;
     }
+    .text {
+        font-size: 500%;
+    }
 
     .form-container input[type=text] {
         width: 100%; /* The input boxes completely fill the width of the form-container */
@@ -523,6 +526,10 @@ button:hover, .form-container .btn:hover {
         background-color: white; 
         min-height: 70%;
         
+    }
+
+    .text {
+        font-size: 500%;
     }
 
     .form-container input[type=text] {
