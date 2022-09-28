@@ -423,6 +423,18 @@ button:hover, .form-container .btn:hover {
         background-color: white; 
         
     }
+    .Pop_Up_Button {
+        position: fixed; /* The element is positioned relative to the viewport and stays in the same location no matter what */
+        bottom: 1.75vw; /* Positions the button slightly up from the bottom of the viewport */
+        right: 1.75vw; /* Positions the viewport slightly right from the side of the viewport */
+        width: 45vw; /* Sets the width relative to the viewport width */
+        background-color: rgb(6, 148, 167); /* Sets the background color of the button to white */
+        color: black; /* Sets the color of the button text to black */
+        border: solid black; /* This makes a solid black border around the button */
+        cursor: pointer; /* This changes the cursor when hovered over the button to a pointer */
+        -webkit-animation: movePopup 5s; /* Animation for 5 seconds for Safari 4.0-8.0 */
+        animation: movePopup 5s; /* Animation set for 5 seconds */
+    }
     #custom {
         font-size: 500%;
         text-align: center;
@@ -482,6 +494,19 @@ button:hover, .form-container .btn:hover {
         max-width: 100%; /* Relative sizing of the form container - 49% of the viewport width */
         padding: 1vw; /* Adds padding between the form-popup and the form-container */
         background-color: white; 
+    }
+
+    .Pop_Up_Button {
+        position: fixed; /* The element is positioned relative to the viewport and stays in the same location no matter what */
+        bottom: 1.75vw; /* Positions the button slightly up from the bottom of the viewport */
+        right: 1.75vw; /* Positions the viewport slightly right from the side of the viewport */
+        width: 45vw; /* Sets the width relative to the viewport width */
+        background-color: rgb(6, 148, 167); /* Sets the background color of the button to white */
+        color: black; /* Sets the color of the button text to black */
+        border: solid black; /* This makes a solid black border around the button */
+        cursor: pointer; /* This changes the cursor when hovered over the button to a pointer */
+        -webkit-animation: movePopup 5s; /* Animation for 5 seconds for Safari 4.0-8.0 */
+        animation: movePopup 5s; /* Animation set for 5 seconds */
     }
     img {
         width: 90%;
