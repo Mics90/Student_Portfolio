@@ -318,7 +318,7 @@ html {
     bottom: 1.75vw; /* Positions the button slightly up from the bottom of the viewport */
     right: 1.75vw; /* Positions the viewport slightly right from the side of the viewport */
     width: 25vw; /* Sets the width relative to the viewport width */
-    background-color: rgb(116, 114, 114); /* Sets the background color of the button to white */
+    background-color: rgb(6, 148, 167); /* Sets the background color of the button to white */
     color: black; /* Sets the color of the button text to black */
     border: solid black; /* This makes a solid black border around the button */
     cursor: pointer; /* This changes the cursor when hovered over the button to a pointer */
