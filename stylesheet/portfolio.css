@@ -417,10 +417,29 @@ button:hover, .form-container .btn:hover {
         font-size: 3.75vw;
     }
 
+    .form-container input[type=text] {
+        width: 100%; /* The input boxes completely fill the width of the form-container */
+        padding: 1.93vw; /* Adds padding to the input boxes */
+        margin: 1.6vw 0 1.6vw 0; /* Adds space between the input boxes and the labels */
+        border: none; /* Removes the border from the input boxes */
+        background: Gainsboro; /* Sets the background color of the input boxes */
+        font-size: 6vw; /* Relative font sizing based on the width of the viewport */
+    }
+
+    label {
+        font-size:500%;
+    }
+
+    button {
+        font-size: 500%;
+    }
+
     .form-container {
         max-width: 100%; /* Relative sizing of the form container - 49% of the viewport width */
-        padding: 1vw; /* Adds padding between the form-popup and the form-container */
+        padding: 0; /* Adds padding between the form-popup and the form-container */
         background-color: white; 
+        min-height: 70%;
+       
         
     }
     .Pop_Up_Button {
@@ -478,7 +497,14 @@ button:hover, .form-container .btn:hover {
         
     }
 
-   
+    .form-popup {
+        z-index: 8; /* This z-index ensures the contact form shows above all other elements on the page */
+        display: none; /* Set the display to none, we will use JavaScript to show the contact form */
+        position: fixed; /* The form stays in the same location no matter what */
+       
+        top: .5vw;
+        left: .5vw;
+    }
     
 
     
@@ -495,6 +521,17 @@ button:hover, .form-container .btn:hover {
         max-width: 100%; /* Relative sizing of the form container - 49% of the viewport width */
         padding: 1vw; /* Adds padding between the form-popup and the form-container */
         background-color: white; 
+        min-height: 70%;
+        
+    }
+
+    .form-popup {
+        z-index: 8; /* This z-index ensures the contact form shows above all other elements on the page */
+        display: none; /* Set the display to none, we will use JavaScript to show the contact form */
+        position: fixed; /* The form stays in the same location no matter what */
+       
+        top: .5vw;
+        left: .5vw;
     }
 
     .Pop_Up_Button {
